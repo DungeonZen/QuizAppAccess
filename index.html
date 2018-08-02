@@ -1,56 +1,75 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<link rel='stylesheet' type='text/css' href="index.css">
-		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-		<script type="text/javascript src='quesAns.js"></script>
-		<script type='text/javascript' src='index.js'> </script>
-		 <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-		<title>
-		Videogame Trivia!!
-		</title>
-	</head>
-	<body>
-<div id='content'>
-			<div id='quizBanner'>
-			<header role='banner'>
-				<h1>TEST YOUR VIDEOGAME MIGHT<h1> 
+ <!DOCTYPE html>
+<html lang='en'>
 
-				 <img id='mario' src='http://i1378.photobucket.com/albums/ah109/timmsparksDM/DrMario64_zpse58m8fu2.jpg'>
-			</header>
-			</div>
-			
-				<div id='landing'>
-
-					<span class='blink'>Insert Coin</span>
-					<br> <br>
-					<img id='coin' src='http://i1378.photobucket.com/albums/ah109/timmsparksDM/8734e0ac-4817-41a5-b816-7c817468e7c8_zpsrl99huji.jpg'>
-				</div>	
-			<div id='questionzone'>
-
-				<div class='question'>
-				<span class='questionText'> </span>	
-				<ul class='questionAnswers'>
-				</ul>
-			</div>
-			</div>
-
-		<div id='scoreLives'>
-			<span id='score'></span> <span id='lives'></span> <span id='quesCounter'></span>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Thinkful Tube :D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="grid.css" />
+    <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 
 
-		</div>
-			
-			
-		</main>
-<footer role='contentinfo'>Tim Sparks 2018 v.10.167
-	</div>
+</head>
 
-</div>
-	
-	
-	
+<body>
+    <main class="section group">
+        <section id='content' class="col span_3_of_3">
+            <form id="js-search-term">
+                <label for="query">Search for:</label>
+                <input type="text" name="query" required aria-label="search_video">
+                <button type="submit">Search</button>
+            </form>
+           
+            <div style="display:none">
+
+                <div class="js-result-template">
+                    <div class="search-result-item">
+                        <a href="" target="_blank">
+                            <img src="">
+                        </a>
+                    </div>
+                </div>
+        
+        
+            </div>
+
+            <div class="js-results">
+            </div>
+        
+    </div>
+
+   
+    <div style="display:none">
+
+        <div class="js-result-template">
+            <div class="search-result-item">
+                <a href="" target="_blank">
+                    <img src="">
+                </a>
+            </div>
+        </div>
+       
+
+
+    </div>
+    <footer class="col span_1_of_3">
+        <img id='bonfire' src='http://i1378.photobucket.com/albums/ah109/timmsparksDM/f2471b55-f304-4c45-8020-b62859a95b7d_zpsqt20yqho.png' alt='thinkful tube'>
+        <br>
+
+        <h1> Thinkful Tube</h1>
+    </footer>
+          
+
+            
+        </section>
+    
+    </main>
+
+    <script src='index.js'></script>
 </body>
+
 </html>
