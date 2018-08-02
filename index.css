@@ -1,0 +1,129 @@
+* {
+box-sizing: border-box;
+}
+.box {  width: 33.33%; }
+#content {
+height: 100%;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+padding:10px;
+border: 1px dashed green;
+}
+#quizBanner {
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+color:green;
+background-color: black;
+text-align: center;
+}
+#questionzone {
+background-color: black;
+height:50%;
+margin-left: auto;
+margin-right: auto;
+color:green;
+text-align: center;
+}
+body {
+font-size: 22px;
+font-family: 'Press Start 2P', cursive;
+background-color: black;
+color: white;
+}
+main {
+display: block;
+}
+li {
+border-left: 20px;
+padding: 10px;
+border: 3px solid green;
+margin: 20px;
+list-style-type: none;
+color: green;
+background-color: black;
+cursor: crosshair;
+}
+li:hover {
+border: 3px solid red;
+color:red;
+}
+img {
+max-width: 200px;
+max-height: auto;
+}
+footer {
+font-size:15px;
+padding: 10px;
+}
+#choices {
+margin-right: 30px;
+}
+.blink {
+color: white;
+}
+#coin {
+max-width:  100px;
+max-height: 100px;
+position: relative;
+margin-left: 10% }
+#coin:hover {
+border: 2px solid red;
+}
+.question {
+overflow: inherit;
+color: green;
+}
+#landing {
+position: relative;
+margin-left:40%;
+}
+#questionzone {
+width: 50%;
+height: auto;
+}
+#mario {
+max-width:  200px;
+max-height: 200px;
+}
+#wrongColor {
+color: red;
+}
+#rightColor {
+color: white;
+}
+.nextbutton {
+font-size: 22px;
+font-family: 'Press Start 2P', cursive;
+background-color: black;
+color: white;
+border:2px solid green;
+padding: 5%;
+}
+.nextbutton:hover {
+border:4px solid white;
+}
+#g_o {
+color: red;
+}
+#y_w {
+margin-left: auto;
+margin-right:auto;
+color: yellow;
+}
+#retry {
+padding: 10px;
+font-size: 22px;
+font-family: 'Press Start 2P', cursive;
+background-color: black;
+color: white; 
+border:2px solid green
+;
+
+}
+#retry:hover {
+border:3px solid red; 
+
+
+ }
